@@ -1,17 +1,15 @@
-from django.views import generic
-from django.views import generic
-from django.views import generic
-from django.views import generic
-from django.views import genericfrom django.views import generic
-from django.views import genericfrom django.views import genericfrom django.views import genericfrom django.views import genericfrom django.views import genericfrom django.views import generic
-from django.views import generic
-from django.views import generic
-from django.views import generic
-from django.views import generic
-from django.views import generic
-from django.views import generic
-
-
+from accounts.models import UserAvatar
+from django.urls import reverse_lazy
+from accounts.models import UserAvatar
+from django.urls import reverse_lazy
+from accounts.models import UserAvatar
+from django.urls import reverse_lazy
+from accounts.models import UserAvatar
+from django.urls import reverse_lazy
+from accounts.models import UserAvatar
+from django.urls import reverse_lazy
+from accounts.models import UserAvatar
+from accounts.models import UserAvatar
 
 
 class UserProfileView(LoginRequiredMixin, generic.UpdateView):
