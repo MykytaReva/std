@@ -1,14 +1,15 @@
-from django.urls import reverse_lazy
-from django.urls import reverse_lazy
-from django.urls import reverse_lazy
-from django.urls import reverse_lazy
 from django.views import generic
-from django.urls import reverse_lazy
-from accounts.models import UserAvatar
-from django.urls import reverse_lazy
-from django.urls import reverse_lazy
-from django.urls import reverse_lazy
-from django.urls import reverse_lazy
+from django.views import generic
+from django.views import generic
+from django.views import generic
+from django.views import genericfrom django.views import generic
+from django.views import genericfrom django.views import genericfrom django.views import genericfrom django.views import genericfrom django.views import genericfrom django.views import generic
+from django.views import generic
+from django.views import generic
+from django.views import generic
+from django.views import generic
+from django.views import generic
+from django.views import generic
 
 
 
