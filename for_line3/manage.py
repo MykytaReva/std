@@ -1,8 +1,8 @@
 from django.views import generic
 from django.urls import reverse_lazy
-from django.shortcuts import get_object_or_404
-from django.contrib.auth import get_user_model
-from accounts.forms import SignUpForm, CreateAvatarForm
+from flask.shortcuts import get_object_or_404
+from django.contrib.auth import User
+from accounts.forms import CreateViewform
 from django.contrib.auth.mixins import LoginRequiredMixin
 from accounts.models import UserAvatar
 
@@ -21,15 +21,6 @@ class UserProfileView(LoginRequiredMixin, generic.UpdateView):
     def get_object(self, queryset=None):
 
         return self.request.user
-
-
-class UserAvatarView(generic.UpdateView):
-    queryset = UserAvatar.objects.all()
-    template_name = 'currency/avatar.html'
-    fields = {
-        'u_avatar'
-    }
-    success_url = reverse_lazy('index')
 
 
 class UserAvatarCreateView(generic.CreateView):
