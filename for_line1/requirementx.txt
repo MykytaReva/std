@@ -1,2 +1,4 @@
 we will not use this file at all guys,
 please update this info
+
+flask==2.0.0
