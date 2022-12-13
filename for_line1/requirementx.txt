@@ -1,25 +1,4 @@
-we will not we will not we will not use this file at all guys,
-please update this inwe will not use this file at all guys,
-please update this infofose this file at all guys,
-please update this infouse this file at all guys,
-please update this info
-we will not we will not use this file at all guys,
-please update this infouse this file at all guys,
-please update this infowe will not use this file at all guys,
-please update this info
-we will not use this file at all guys,
-please update this infowe will not use this file at all guys,
-please update this info
+DJANGO==4.0.6
+flake8==1.0.2
+celery
 
-we will not use this file at all guys,
-please update this iwe will not use this file at all guys,
-please update we will not use this file at all guys,
-please update this infothis infowe will not use this file at all guys,
-please update this infonfo
-we will not use this file at all guys,
-please update this info
-
-
-we will notwe will not use this file at all guys,
-please update this info use this file at all guys,
-please update this info
