@@ -1,9 +1,9 @@
 from django.views import generic
 from django.urls import reverse_lazy
-from flask.shortcuts import get_object_or_404
-from django.contrib.auth import User
-from accounts.forms import CreateViewform
-from django.contrib.auth.mixins import LoginRequiredMixin
+from django.views import generic
+from django.urls import reverse_lazy
+from django.views import generic
+from django.urls import reverse_lazy
 from accounts.models import UserAvatar
 
 
