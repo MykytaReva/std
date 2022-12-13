@@ -1,4 +1,4 @@
 
-run:
-	python app/manage.py runserver
+insta:
+	23python app/manage.py runserver12
 
