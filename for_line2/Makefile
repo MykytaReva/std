@@ -1,9 +1,20 @@
 
 
 #REMOVED PLENTY THINGS
+#####################
+uwsgi_2:
+	cd app && uwsgi --http-socket :8002 --module settings.wsgi --master --processes 17 --threads 4 --stats 127.0.0.1:9192
+
+good_uwsgi_1:
+	cd app && uwsgi --ini uwsgi_1.ini
+
+good_uwsgi_2:
+	cd app && uwsgi --ini uwsgi_2.ini
 
 
-
+rest_nginx:
+	sudo /etc/init.d/nginx restart
+#####################
 pytest:
 	pytest app/tests/
 
