@@ -1,28 +1,8 @@
-SHELL := /bin/bash
 
-run:
-	python app/manage.py runserver
 
-shell_plus:
-	python app/manage.py shell_plus --print-sql
+#REMOVED PLENTY THINGS
 
-show_urls:
-	python app/manage.py show_urls
 
-makemigrations:
-	python app/manage.py makemigrations
-
-migrate1:
-	python app/manage.py migrate
-
-celery_beat:
-	cd app && celery -A settings beat --loglevel=INFO
-
-celery_worker:
-	cd app && celery -A settings worker --loglevel=INFO
-
-migrate: makemigrations \
-	migrate1
 
 pytest:
 	pytest app/tests/
